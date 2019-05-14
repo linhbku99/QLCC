@@ -5,25 +5,15 @@
 #include <string.h>
 #include "lib.h"
 
-struct Database
-{
-	int id;
-	char ten[255];
-	int ca_lam;
-	float ngay_cong;
-	int ngay_nghi;
-	int tang_ca;
-	float tien_luong;
-};
 int LoadDatabase()
 {
-	struct Database nhan_vien;
+	struct Database * nhan_vien = (struct Database *)malloc(sizeof(struct Database *) * 100);
 	//TODO
 	return 0;
 	// 0: Thanh cong
 	// -1: That bai
 }
-int ChangeDatabase(struct Database _data)
+int ChangeDatabase(struct Database * _data)
 {
 	//TODO
 	return 0;
