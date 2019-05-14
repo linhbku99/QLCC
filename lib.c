@@ -7,7 +7,7 @@
 
 int LoadDatabase()
 {
-	struct Database * nhan_vien = (struct Database *)malloc(sizeof(struct Database *) * 100);
+	struct Database * nhan_vien = (struct Database *)malloc(sizeof(struct Database *) * 100); // Khởi tạo mảng 100 nhân viên
 	//TODO
 	free(nhan_vien);
 	return 0;
