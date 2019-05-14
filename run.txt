@@ -1,0 +1,2 @@
+gcc -g lib.h lib.c main.c -o main
+main.exe
