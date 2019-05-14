@@ -8,6 +8,6 @@
 int main()
 {
 	LoadDatabase();
-	MainScreen();
+	//MainScreen();
 	return 0;
 }
