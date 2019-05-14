@@ -9,6 +9,7 @@ int LoadDatabase()
 {
 	struct Database * nhan_vien = (struct Database *)malloc(sizeof(struct Database *) * 100);
 	//TODO
+	free(nhan_vien);
 	return 0;
 	// 0: Thanh cong
 	// -1: That bai
